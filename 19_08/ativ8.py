@@ -5,6 +5,7 @@
 import tkinter as tk
 
 janela = tk.Tk()
+janela.geometry("400x250")
 
 aviso = tk.Label(janela, text="Atenção!", font=("Arial", 24), fg="red")
 aviso.pack()

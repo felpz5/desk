@@ -4,6 +4,7 @@
 import tkinter as tk
 
 janela = tk.Tk()
+janela.geometry("400x250")
 
 botao = tk.Button(janela, text="Clique aqui")
 botao.pack()  

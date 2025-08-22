@@ -5,6 +5,7 @@
 import tkinter as tk
 
 janela = tk.Tk()
+janela.geometry("400x250")
 
 rotulo = tk.Label(janela, text="Sou um rótulo")
 rotulo.pack()

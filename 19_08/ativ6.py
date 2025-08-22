@@ -6,6 +6,7 @@
 import tkinter as tk
 
 janela = tk.Tk()
+janela.geometry("400x250")
 
 tk.Label(janela, text="Digite seu nome:").pack()
 entrada = tk.Entry(janela)

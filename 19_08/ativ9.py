@@ -6,6 +6,6 @@ import tkinter as tk
 
 janela = tk.Tk()
 janela.title("Minha Aplicação Tkinter")
-janela.geometry("400x300")  # largura x altura
+janela.geometry("400x300") 
 
 janela.mainloop()

@@ -9,6 +9,8 @@ def abrir_segunda_tela():
     tk.Label(nova_janela, text="Bem-vindo à segunda tela!").pack()
 
 janela = tk.Tk()
+janela.geometry("400x250")
+
 botao = tk.Button(janela, text="Abrir segunda tela", command=abrir_segunda_tela)
 botao.pack()
 

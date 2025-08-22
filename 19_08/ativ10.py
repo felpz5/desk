@@ -5,8 +5,9 @@
 import tkinter as tk
 
 janela = tk.Tk()
+janela.geometry("400x250")
 
 botao_sair = tk.Button(janela, text="Sair", command=janela.destroy)
-botao_sair.pack()
+botao_sair.pack(pady=15)
 
 janela.mainloop()

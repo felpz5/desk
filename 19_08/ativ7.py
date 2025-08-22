@@ -5,6 +5,7 @@
 import tkinter as tk
 
 janela = tk.Tk()
+janela.geometry("400x250")
 
 botao_somar = tk.Button(janela, text="Somar")
 botao_somar.pack(side="left", padx=10)
