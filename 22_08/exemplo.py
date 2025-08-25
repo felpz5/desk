@@ -87,6 +87,6 @@ tree.grid(row=0, column=0)
 botao_excluir_varios = tk.Button(frame_clientes_cadastrados,\
 text='Remover Selecionados',bg="#447e92", fg='white' )
 botao_excluir_varios.grid(row=1, column=0, padx=10, pady=5, sticky='e')
-#command=excluir_selecionados, ob: tem que fazer uma função pra esse funcionar
+#command=excluir_selecionados, obS: tem que fazer uma função pra esse funcionar
 
 janela.mainloop()
