@@ -8,7 +8,7 @@ ctk.set_default_color_theme("blue")
 # Janela principal
 root = ctk.CTk()
 root.title('Tela de Login')
-root.geometry('450x350')
+root.geometry('1500x950')
 
 # Rótulo e campo do usuário
 label_usuario = ctk.CTkLabel(root, text='Usuário:')
